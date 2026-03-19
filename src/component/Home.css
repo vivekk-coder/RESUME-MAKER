@@ -1,0 +1,40 @@
+.heroImage {
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlayImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welComeText {
+    max-width: 800px;
+    text-align: center;
+}
+
+.welComeText h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.welComeText p {
+    color: white;
+}
+
+.brandingText {
+    position: relative;
+}

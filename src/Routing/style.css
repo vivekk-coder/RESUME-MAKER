@@ -1,0 +1,46 @@
+.navbar-brand {
+    margin-left: 30px;
+    color: white;
+    list-style: none !important;
+}
+.navbar-brand:hover{
+    color: white !important;
+}
+.navbar-nav {
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: white;
+    list-style: none !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+@media only screen and (max-width : 600px) {
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background-color: white !important;
+    }
+    .navbar-toggler-icon {
+        background-color: black;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        border-radius: 50%;
+    }
+    .welComeText h1 {
+        width: 70%;
+        top: 35% !important;
+        text-align: center;
+    }
+    .welComeText p {
+        width: 70%;
+        font-size: 21px;
+        margin-top: 110px;
+    }
+    
+}
